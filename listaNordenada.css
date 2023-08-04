@@ -1,0 +1,10 @@
+body{
+    background:linear-gradient(90deg, rgb(36, 17, 0) 0%, rgb(121, 54, 9) 35%, rgb(255, 187, 0) 100%);
+}
+#all{
+    display: flex;
+    background-color: aliceblue;
+    margin-right: 500px;
+    border-radius: 4px;
+    
+}

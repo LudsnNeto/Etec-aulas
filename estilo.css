@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(105, 11, 168);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+  }
+
+  input{
+    border-radius: 3px;
+    box-shadow:none
+  }
+  #quadrado{
+    background-color: rgb(32, 116, 172);
+    margin: 300px;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  rgb(67, 7, 107);
+    
+  }
