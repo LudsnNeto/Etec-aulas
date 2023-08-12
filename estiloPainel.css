@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color:beige;
     
 }
 h1{
@@ -42,6 +43,21 @@ h1{
 
 .btn_painel1{
     margin-top: 60px;
+    border: none;
+    background-color: rgb(94, 3, 240) ;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    
+
 }
+.btn_painel1:hover{
+    transition: all 200ms ease-out;
+    background-color: rgb(114, 47, 223) ;  
+      
+}
+
 
 
