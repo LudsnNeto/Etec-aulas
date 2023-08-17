@@ -1,5 +1,6 @@
 body{
-    background:linear-gradient(90deg, rgb(36, 17, 0) 0%, rgb(121, 54, 9) 35%, rgb(255, 187, 0) 100%);
+    background-color: rgb(216, 216, 189);
+            
 }
 .all{
     display: flex;
@@ -10,18 +11,13 @@ body{
 .back_button{
     margin-top: 20px;
     margin-left: 47%;
-    background-color: orange;
+    background-color: rgb(175, 175, 137);
     border-style: none;
     border-radius: 3px;
 }
 .back_button:hover{
-    background-color: rgb(3, 3, 3);
-    color: orange;
-    border-style: solid, black;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: 46%;
     transition: 0.2s;
+    background-color: rgb(168, 238, 87);
 
 }
 li{

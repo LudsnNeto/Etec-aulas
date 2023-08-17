@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(139, 139, 139);
+    
+}
+h1{
+    text-align: CENTER;
+}
+
+.cores{
+    margin: 50px;
+    background-color: white;
+    padding: 75px;
+    float: left;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#cor1{
+    background-color: aqua;
+    border-style: dotted ;
+}
+#cor2{
+    background-color: chartreuse;
+    border-style:  dashed ;
+}
+#cor3{
+    background-color: violet;
+    border-radius: 50%;
+}
+#cor4{
+    background-color: brown;
+    border-style:  double;
+    background-image: linear-gradient(to left, red, yellow)
+}
+#cor5{
+    background-color: seagreen;
+    box-shadow: 10px /*esqueda*/ 10px /*baixo*/ 20px /*densidade quanto maior mais menos denso*/rgb(75, 74, 74)
+}
+#cor6{
+    background-color: yellow;
+    border-radius: 30%;
+}
+
+#cor1:hover{
+    background-color: white;
+    padding: 80px;
+    transition: 0.2s;
+
+
+
+}
+#cor2:hover{
+    background-color: white;
+    padding: 80px;
+
+}
+#cor3:hover{
+    background-color: white;
+    padding: 80px;
+
+}
+#cor4:hover{
+    background-color: white;
+    padding: 80px;
+
+}
+#cor5:hover{
+    background-color: white;
+    padding: 80px;
+
+}
+#cor6:hover{
+    background-color: white;
+    padding: 80px;
+
+}
+
+#texto1{
+    background-color: rgb(105, 105, 105);
+    color: yellow;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    width: 80%;
+}
+#texto2{
+    background-color: rgb(105, 105, 105);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    float: left;
+}
+
+#texto3{
+    background-color: rgb(105, 105, 105);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    float: left;
+}
+
+
