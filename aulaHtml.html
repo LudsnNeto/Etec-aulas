@@ -8,14 +8,13 @@
   </head>
   <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
   <body>
-    <div id="loginUser">
-        <h1>inserir texto</h1>
+  <div id="loginUser">
+      <h1><img src="circle.png"> DS Etec</h1>
         <br>
-
-    <b>Nome:</b>
+      <b>Nome:</b>
         <input type="text" ><br>
-    <b>Cidade:</b>
-    <select name="selecCidade" class="opn" >
+      <b>Cidade:</b>
+        <select name="selecCidade" class="opn" >
           <option>Araçatuba</option>
           <option>Birigui</option>
           <option>Guararapes</option>
@@ -26,18 +25,20 @@
           <option>Fernandopolis</option>
           <option>Jales</option>
         </select><br>   
-    <label>
-      <b>Já estudou na ETEC ?</b>
-        <input type="radio" name="webmaster" value="sim"/> Sim
-        <input type="radio" name="webmaster" value="nao"/> Não<br />
-    </label>    
-        <br>
-        <br>
-        <a href="painel.html"><button class="bnt-enter">ENTRAR</button></a>
-        </div>
-        <div id="map">
+        <label class="bntradio">
+            <b>Já estudou na ETEC ?</b>
+              <input class="bntradio" type="radio" name="webmaster" value="sim"/> Sim
+              <input class="bntradio" type="radio" name="webmaster" value="nao"/> Não<br />
+        </label>    
+          <br>
+          <br>
+      <span class="textconfig">
+          <a href="painel.html"><button class="bnt-enter">ENTRAR</button></a>
+      </span>  
+  </div>
+  <div id="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.2652525702474!2d-50.452932425434284!3d-21.181619278500282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9496441520689f87%3A0xd8029166ba1e8e36!2sEtec%20de%20Ara%C3%A7atuba!5e0!3m2!1spt-BR!2sbr!4v1692714586899!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+  </div>
         
     
   </body>
