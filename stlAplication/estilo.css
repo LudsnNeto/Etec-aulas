@@ -13,6 +13,10 @@ body{
   .textconfig{
     margin-left: 34%;
   }
+  #age{
+    text-align: center;
+    
+  }
   .bntradio{
     font-size:11px ;
   }
@@ -66,6 +70,5 @@ body{
     line-height: 30px;
     background-color: rgb(141, 89, 223) ;
     border-radius: 5px;
-    
-    
+
   }

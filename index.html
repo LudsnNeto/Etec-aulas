@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="icon" href="circle.png">
+    <link rel="icon" href="stlAplication/circle.png">
     <meta charset="UTF-8">
     <title>Login Form</title>
-    <script src="scriptAula.js"></script>
+    <script src="dados/saveFiles.js"></script>
   </head>
-  <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="stlAplication/estilo.css" media="screen" />
   <body>
   <div id="loginUser">
-      <h1><img src="circle.png"> DS Etec</h1>
+      <h1><img src="stlAplication/circle.png"> DS Etec</h1>
         <br>
       <b>Nome:</b>
-        <input type="text" ><br>
+        <input type="text" id="nameUser"><br>
+      <b>Idade:</b>
+        <input type="text" id="age"><br>
       <b>Cidade:</b>
         <select name="selecCidade" class="opn" >
           <option>Araçatuba</option>
@@ -27,13 +29,13 @@
         </select><br>   
         <label class="bntradio">
             <b>Já estudou na ETEC ?</b>
-              <input class="bntradio" type="radio" name="webmaster" value="sim"/> Sim
-              <input class="bntradio" type="radio" name="webmaster" value="nao"/> Não<br />
+              <input id="opnRadio" class="bntradio" type="radio" name="webmaster" value="sim"/> Sim
+              <input id="opnRadio" class="bntradio" type="radio" name="webmaster" value="nao"/> Não<br />
         </label>    
           <br>
           <br>
       <span class="textconfig">
-          <a href="painel.html"><button class="bnt-enter">ENTRAR</button></a>
+          <a href="painel.html"><button class="bnt-enter" onclick="saveForm()">ENTRAR</button></a>
       </span>  
   </div>
   <div id="map">
