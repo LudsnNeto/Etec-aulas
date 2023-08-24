@@ -2,7 +2,7 @@ function saveForm() {
     if(typeof(Storage) !== "loginUser"){
 
         if(localStorage.cont){
-            sessionStorage.cont = Number (localStorage.cont) +1;
+            localStorage.cont = Number (localStorage.cont) +1;
         } else {
             localStorage.cont = 1;
         }
