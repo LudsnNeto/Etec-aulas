@@ -1,9 +1,9 @@
 body{
-  display: block;
-    width: 100%;
-    height: 100%;
-    background-color: beige;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: beige;
+  Font-family: Arial, Helvetica, sans-serif;
   }
   h1{
    color: rgb(196, 168, 223);
@@ -13,10 +13,11 @@ body{
   .textconfig{
     margin-left: 34%;
   }
+
   #age{
-    text-align: center;
-    
+    text-align: center; 
   }
+
   .bntradio{
     font-size:11px ;
   }
@@ -37,7 +38,7 @@ body{
     border-radius: 3px;
     border: NONE;
     margin-top: 5px;
-    background-color: rgb(145, 113, 197) ;
+    background-color: rgb(157, 118, 219) ;
     font-family: Arial, Helvetica, sans-serif;
   }
   input:focus{
@@ -46,6 +47,7 @@ body{
   }
   
   .opn{
+    justify-content: right;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     box-shadow: 0 0 0 0;
@@ -60,7 +62,20 @@ body{
     margin: 10px;
     padding: 6px;
     margin-left: 53%;
+    background-color: beige;
+    border-color: rgb(216, 216, 193);
+    border-style: outset ;
   }
+  .bntMap{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: rgb(157, 118, 219);
+  }
+
   #loginUser{
     font-size: 12px;
     float: left;
@@ -69,6 +84,6 @@ body{
     padding-bottom: 200px;
     line-height: 30px;
     background-color: rgb(141, 89, 223) ;
-    border-radius: 5px;
+   
 
   }

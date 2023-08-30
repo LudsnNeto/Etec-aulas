@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(149, 163, 184);
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+}
+.menu ul {
+    display: flex;
+    list-style-typE:none ;
+    height: 60px;
+    justify-content: right;
+    align-items: center;
+}
+.menu li{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.menu li:hover{
+    background-color:  rgb(117, 132, 155);
+}
+
+.destaque h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center; /* para alinhar os elementos ao longo do eixo principal*/
+    align-items: center;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    margin-top: 40%;
+    margin-left: 53%;
+}
